@@ -1,0 +1,86 @@
+/* PALETA DE COLORES
+color principal: 
+color secunsario: #EFD09E
+fondo primario: #D2D8B3
+fondo secundario: #90A9B7
+resaltar: #272727
+*/
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/* HEADER */
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: #90A9B7;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 60;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: #FFFFFF;
+}
+
+@media (max-width: 700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+/* FOOTER */
+
+footer{
+    background: #272727;
+    height: auto;
+    width: 100%;
+    font-family: open sans;
+    color: #FFFFFF;
+}
+
+.contenido-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* MAIN GRAL */
+
+main{background-color: #D4AA7D;}
+
+#peluq-inicio{
+    size: 100%;
+}
+
+.ver-mas{
+    background-color: black;
+    color: white;
+}
